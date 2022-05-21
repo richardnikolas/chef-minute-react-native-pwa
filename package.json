@@ -10,15 +10,46 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@expo/vector-icons": "^13.0.0",
+    "@mui/icons-material": "^5.6.0",
+    "@mui/material": "^5.6.0",
+    "@mui/styles": "^5.6.0",
+    "@mui/system": "^5.6.1",
+    "clsx": "^1.1.1",
+    "dexie": "^3.2.1",
+    "dexie-react-hooks": "^1.1.1",
     "expo": "~45.0.0",
+    "expo-constants": "^13.1.1",
     "expo-status-bar": "~1.3.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-loader-spinner": "^6.0.0-0",
     "react-native": "0.68.2",
-    "react-native-web": "0.17.7"
+    "react-native-paper": "^4.12.1",
+    "react-native-web": "0.17.7",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "workbox-background-sync": "^5.1.4",
+    "workbox-broadcast-update": "^5.1.4",
+    "workbox-cacheable-response": "^5.1.4",
+    "workbox-core": "^5.1.4",
+    "workbox-expiration": "^5.1.4",
+    "workbox-google-analytics": "^5.1.4",
+    "workbox-navigation-preload": "^5.1.4",
+    "workbox-precaching": "^5.1.4",
+    "workbox-range-requests": "^5.1.4",
+    "workbox-routing": "^5.1.4",
+    "workbox-strategies": "^5.1.4",
+    "workbox-streams": "^5.1.4",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "eslint": "^8.12.0",
+    "prettier": "^2.6.2"
   },
   "private": true
 }
