@@ -39,7 +39,7 @@ const SplashPage = () => {
         <div className={classes.root}>
             <img
                 className={classes.splashImg}
-                src={`../assets/logo-splash.png`}
+                src={`${process.env.PUBLIC_URL}/assets/logo-splash.png`}
                 alt="Logo Splash"
             />
         </div>

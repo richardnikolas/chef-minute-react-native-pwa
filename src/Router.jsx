@@ -5,7 +5,6 @@ import SignUpPage from "./views/SignUpPage";
 import HomePage from "./views/Home/HomePage";
 import RecipePage from "./views/Recipe/RecipePage";
 import NewRecipe from "./views/Recipe/NewRecipe";
-import { View } from "react-native";
 
 const Router = () => {
     return (

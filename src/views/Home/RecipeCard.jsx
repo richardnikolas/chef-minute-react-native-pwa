@@ -80,7 +80,7 @@ const RecipeCard = ({ recipe }) => {
                             backgroundColor: theme.palette.secondary.main,
                             backgroundImage: recipe.photoUrl
                                 ? `url(${recipe.photoUrl})`
-                                : `url("../../assets/no-image.png")`
+                                : `url("${process.env.PUBLIC_URL}/assets/no-image.png")`
                         }}
                     />
                 </Grid>

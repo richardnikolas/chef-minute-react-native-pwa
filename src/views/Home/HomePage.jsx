@@ -16,7 +16,6 @@ import { getStoredUser } from "../../shared/functions";
 import RecipeCard from "./RecipeCard";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "../../db/indexedDb";
-import { StyleSheet, Text, View } from "react-native";
 import "../../styles/global.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -63,6 +62,17 @@ const HomePage = () => {
     const isFilteringByThisChip = (chip) => {
         return chipsFilter.find((c) => c === chip);
     };
+
+    // TODO: implement chips filter
+    // const updateChipsFilter = (chip) => {
+    //     const index = chipsFilter.indexOf(chip);
+
+    //     if (index > -1) {
+    //         chipsFilter.splice(index, 1);
+    //     } else {
+    //         chipsFilter.push(chip);
+    //     }
+    // };
 
     useLiveQuery(() => {
         db.recipe

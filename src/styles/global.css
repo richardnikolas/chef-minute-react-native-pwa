@@ -143,7 +143,7 @@
 
 #searchInput {
     padding-left: 15px;
-    background: url("../assets/search-icon.png") no-repeat left;
+    background: url("../../public/assets/search-icon.png") no-repeat left;
     background-size: 20px 20px;
     background-position: 10px;
     text-indent: 30px;

@@ -64,7 +64,7 @@ const SignUpPage = () => {
                     style={{ flexDirection: "column", marginBottom: 15 }}
                 >
                     <img
-                        src={`../assets/logo-circle.png`}
+                        src={`${process.env.PUBLIC_URL}/assets/logo-circle.png`}
                         className={classes.logoCircle}
                         alt="Logo circle"
                     />
